@@ -1,0 +1,107 @@
+{
+  "slices": {
+    "components": {
+      "blog": {
+        "library": "slices",
+        "id": "blog",
+        "name": "Blog",
+        "description": "Blog",
+        "model": {
+          "id": "blog",
+          "type": "SharedSlice",
+          "name": "Blog",
+          "description": "Blog",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Blog",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading1",
+                    "label": "Title",
+                    "placeholder": "This is where it all begins..."
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "paragraph",
+                    "label": "Description",
+                    "placeholder": "A nice description of your feature"
+                  }
+                },
+                "content": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Content",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "blog",
+            "items": [],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "Target proactive metrics",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "In sint aute adipisicing cupidatat ea mollit minim officia consectetur aliquip aliqua consectetur.",
+                  "spans": []
+                }
+              ],
+              "content": [
+                {
+                  "type": "heading1",
+                  "text": "Engage enterprise infrastructures",
+                  "spans": []
+                },
+                {
+                  "type": "image",
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1600804931749-2da4ce26c869?w=900&h=500&fit=crop"
+                },
+                {
+                  "type": "paragraph",
+                  "text": "Veniam cillum velit enim anim officia fugiat qui velit amet consequat sunt deserunt aute. Irure ut nostrud aute incididunt minim. Officia tempor Lorem occaecat tempor eu ipsum sit ea velit.",
+                  "spans": []
+                }
+              ]
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {}
+      }
+    }
+  }
+}

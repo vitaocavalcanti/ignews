@@ -1,0 +1,9 @@
+import MyComponent from '../../../../slices/Blog';
+
+export default {
+  title: 'slices/Blog'
+}
+
+
+export const _Default = () => <MyComponent slice={{"variation":"default","name":"Default","slice_type":"blog","items":[],"primary":{"title":[{"type":"heading1","text":"Target proactive metrics","spans":[]}],"description":[{"type":"paragraph","text":"In sint aute adipisicing cupidatat ea mollit minim officia consectetur aliquip aliqua consectetur.","spans":[]}],"content":[{"type":"heading1","text":"Engage enterprise infrastructures","spans":[]},{"type":"image","dimensions":{"width":900,"height":500},"alt":"Placeholder image","copyright":null,"url":"https://images.unsplash.com/photo-1600804931749-2da4ce26c869?w=900&h=500&fit=crop"},{"type":"paragraph","text":"Veniam cillum velit enim anim officia fugiat qui velit amet consequat sunt deserunt aute. Irure ut nostrud aute incididunt minim. Officia tempor Lorem occaecat tempor eu ipsum sit ea velit.","spans":[]}]},"id":"_Default"}} />
+_Default.storyName = 'Default'
